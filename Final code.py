@@ -22,7 +22,7 @@ def instructions():
 
            
 def status():
-            status = input("Would you like to play the quiz?\n Enter y to continue or n to exit the quiz : ").lower()
+            status = input("Would you like to play the quiz?\n Enter y to continue or n to exit the quiz :\n").lower()
             if status == "y" or status == "yes":
                         print("We shall begin shortly")
             else:
