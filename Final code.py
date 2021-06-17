@@ -15,18 +15,18 @@ def user_details():
 def instructions():
     inst = input("Enter y to read or any other key to continue without rules : ")
     if inst == 'yes' or inst == 'a'or inst == 'y' :
-        print("The instructions are simple, its a multi choice quiz answer a,b,c,d and enjoy!. ")
+        print("\nThe instructions are simple, its a multi choice quiz answer a,b,c,d and enjoy!.")
     else:
         pass
         
 
            
 def status():
-            status = input("Would you like to play the quiz?\n Enter y to continue or n to exit the quiz :\n").lower()
+            status = input("Would you like to play the quiz?\nEnter y to continue or n to exit the quiz :\n").lower()
             if status == "y" or status == "yes":
                         print("We shall begin shortly")
             else:
-                        print("Thank you for taking the time to")
+                        
                         exit()
 
 def rounds():
@@ -103,11 +103,15 @@ while r>0:
                         user_answer = input ("Please enter one of the options (a/b/c/d): ").lower().replace(' ','')
                         if user_answer == 'a' or user_answer == 'b' or user_answer == 'c' or user_answer == 'd':
                                     if user_answer == answer:
-                                                print("yeah you got it right!")
+                                                print("\n<><><><><><><><><><><><><><>")    
+                                                print("Congrats you got it correct")
+                                                print("<><><><><><><><><><><><><><>\n") 
                                                 score +=1
                                                 print("your score is", score)
                                     else:
-                                                print("you got it wrong")
+                                                print("\n><><><><><><><><><><><><><><><><><><><") 
+                                                print("You got it wrong better, luck next time! The answer is:", answer)
+                                                print("><><><><><><><><><><><><><><><><><><><\n") 
                                                 print("your score is still",score)
 
                                     del quiz[0]
@@ -119,8 +123,20 @@ print("You have succesfully completed Sean's Game Quiz!")
 print(name,"Your final score is", score,"out of",total)
 print("That means you answered", (round(score/total*100,2)),"% of the questions correctly!")
 print("Thanks for playing")
-feedback = int(input("How would you rate the quiz from 1-5?: "))
 
 
+def feedback():
+  while True:
+    try:
+      f = int(input("How would you rate the quiz from 1-10?: "))
+      if 0<f<=10:
+        break
+      else:
+        print("\nPlease enter numbers 1-10 only\n")
+        
+    except:
+      print('\nPlease enter numbers only\n')
+feedback()
+    
 print("Thank you for the feedback!")
 exit()
