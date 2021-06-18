@@ -13,7 +13,7 @@ def user_details():
        
 
 def instructions():
-    inst = input("Enter y to read or any other key to continue without rules : ")
+    inst = input("Please enter y to read the insturctions and any other key to skip : ")
     if inst == 'yes' or inst == 'a'or inst == 'y' :
         print("\nThe instructions are simple, its a multi choice quiz answer a,b,c,d and enjoy!.")
     else:
@@ -22,7 +22,7 @@ def instructions():
 
            
 def status():
-            status = input("Would you like to play the quiz?\nEnter y to continue or n to exit the quiz :\n").lower()
+            status = input("Would you like to play the quiz?\nEnter y to continue or n to exit the quiz : ").lower()
             if status == "y" or status == "yes":
                         print("We shall begin shortly")
             else:
