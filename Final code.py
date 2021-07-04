@@ -61,7 +61,7 @@ quiz = [
  {'answer' :'c', 'choice' : 'a. Bjergsen \nb. Huni \nc. Faker \nd. Madlife\n'}
  ],
 ["What does frag mean?",
- {'answer' :'b', 'choice' : 'a. Flash bang \nb. Top of the leader board \nc. Frag grenades \nd. Smoke grenades\n'}
+ {'answer' :'c', 'choice' : 'a. Flash bang \nb. Top of the leader board \nc. Frag grenades \nd. Smoke grenades\n'}
  ],
 ["What colour is the ghost inky?",
  {'answer' :'d', 'choice' : 'a. red \nb. orange \nc. pink \nd. cyan\n'}
