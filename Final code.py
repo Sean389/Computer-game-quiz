@@ -7,6 +7,75 @@
  
 
 from random import shuffle
+#using dictionaries in order to store the questions, choices, and answers
+
+quiz = [
+
+["\nWhat is the best selling video game of all time?",
+
+{'answer' :'b', 'choice' : 'a. Roblox \nb. Minecraft \nc. GTA V \nd. Call of Duty \n'}
+
+],
+
+["\nWhich of these consoles is the highest selling to date?",
+
+{'answer' :'a', 'choice' : 'a. PS2 \nb. Nintendo DS \nc. PS4 \nd. Xbox\n'}
+
+],
+
+["\nWhat game did mario first apear in?",
+
+{'answer' :'b', 'choice' : 'a. Mario kart \nb. Donkey kong \nc. Super mario bro 35 \nd. Super galaxy mario\n'}
+
+],
+
+["\nHow many cards in a full deck of regular playing cards including the jokers?",
+
+{'answer' :'a', 'choice' : 'a. 54 \nb. 52 \nc. 50 \nd. 48\n'}
+
+],
+
+["\nWho is known as the unkillable demon king?",
+
+{'answer' :'c', 'choice' : 'a. Bjergsen \nb. Huni \nc. Faker \nd. Madlife\n'}
+
+],
+
+["\nWhat does frag mean?",
+
+{'answer' :'c', 'choice' : 'a. Flash bang \nb. Top of the leader board \nc. Frag grenades \nd. Smoke grenades\n'}
+
+],
+
+["\nWhat colour is the ghost inky?",
+
+{'answer' :'d', 'choice' : 'a. red \nb. orange \nc. pink \nd. cyan\n'}
+
+],
+
+["\nWho is known as the potato king?",
+
+{'answer' :'c', 'choice' : 'a. Dream \nb. Skeppy \nc. technoblade \nd. skeppy\n'}
+
+],
+
+["\nWho won worlds 3 times in a row?",
+
+{'answer' :'a', 'choice' : 'a. Skt \nb. TSM \nc. C9 \nd. fanatic\n'}
+
+],
+
+["\nBlizzard Entertainment is most well known for what video game franchise?",
+
+{'answer' :'d', 'choice' : 'a.Hearthstone \nb.Fortnite \nc.Overwatch \nd.World of Warcraft\n'}
+
+],
+
+ 
+
+ 
+
+]
 
  
 
@@ -102,75 +171,7 @@ def rounds():
 
  
 
-#using dictionaries in order to store the questions, choices, and answers
 
-quiz = [
-
-["\nWhat is the best selling video game of all time?",
-
-{'answer' :'b', 'choice' : 'a. Roblox \nb. Minecraft \nc. GTA V \nd. Call of Duty \n'}
-
-],
-
-["\nWhich of these consoles is the highest selling to date?",
-
-{'answer' :'a', 'choice' : 'a. PS2 \nb. Nintendo DS \nc. PS4 \nd. Xbox\n'}
-
-],
-
-["\nWhat game did mario first apear in?",
-
-{'answer' :'b', 'choice' : 'a. Mario kart \nb. Donkey kong \nc. Super mario bro 35 \nd. Super galaxy mario\n'}
-
-],
-
-["\nHow many cards in a full deck of regular playing cards including the jokers?",
-
-{'answer' :'a', 'choice' : 'a. 54 \nb. 52 \nc. 50 \nd. 48\n'}
-
-],
-
-["\nWho is known as the unkillable demon king?",
-
-{'answer' :'c', 'choice' : 'a. Bjergsen \nb. Huni \nc. Faker \nd. Madlife\n'}
-
-],
-
-["\nWhat does frag mean?",
-
-{'answer' :'c', 'choice' : 'a. Flash bang \nb. Top of the leader board \nc. Frag grenades \nd. Smoke grenades\n'}
-
-],
-
-["\nWhat colour is the ghost inky?",
-
-{'answer' :'d', 'choice' : 'a. red \nb. orange \nc. pink \nd. cyan\n'}
-
-],
-
-["\nWho is known as the potato king?",
-
-{'answer' :'c', 'choice' : 'a. Dream \nb. Skeppy \nc. technoblade \nd. skeppy\n'}
-
-],
-
-["\nWho won worlds 3 times in a row?",
-
-{'answer' :'a', 'choice' : 'a. Skt \nb. TSM \nc. C9 \nd. fanatic\n'}
-
-],
-
-["\nBlizzard Entertainment is most well known for what video game franchise?",
-
-{'answer' :'d', 'choice' : 'a.Hearthstone \nb.Fortnite \nc.Overwatch \nd.World of Warcraft\n'}
-
-],
-
- 
-
- 
-
-]
 
 #Calling the shuffle module to generate random questions
 
