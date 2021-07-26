@@ -1,3 +1,15 @@
+from random import shuffle
+
+
+
+#initialising the score and option numbers
+index = 0
+
+score = 0
+
+optnum = 0
+
+
 #the following quiz is general knowledge quiz on computer games.
 
  
@@ -6,7 +18,7 @@
 
  
 
-from random import shuffle
+
 #using dictionaries in order to store the questions, choices, and answers
 
 quiz = [
@@ -177,15 +189,6 @@ def rounds():
 
 shuffle(quiz)
 
- 
-
-#initialising the score and option numbers
-
-index = 0
-
-score = 0
-
-optnum = 0
 
  
 
